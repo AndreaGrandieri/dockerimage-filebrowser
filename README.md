@@ -24,7 +24,7 @@ networks:
 
 ## Env variables
 
-| Variable Name | Required | Default Value |
-| ------------- | -------- | ------------- |
-| FB_INIT_USER  | NO       | admin         |
-| FB_INIT_PASS  | NO       | admin         |
+| Variable Name | Required | Default Value | Description                                                    |
+| ------------- | -------- | ------------- | -------------------------------------------------------------- |
+| FB_INIT_USER  | NO       | admin         | Username for user creation when settings do not already exist. |
+| FB_INIT_PASS  | NO       | admin         | Password for user creation when settings do not already exist. |
