@@ -6,12 +6,12 @@ Wrapper for filebrowser from: https://filebrowser.org/.
 
 ```yaml
 services:
-  minecraft:
+  filebrowser:
     image: andreagrandieri/filebrowser:latest
     tty: true
     stdin_open: true
     ports:
-      - "<EXPOSED_PORT_1>:80"
+      - "<EXPOSED_PORT>:80"
     volumes:
       - "<BIND_VOLUME_PATH>:/data"
     networks:
